@@ -54,8 +54,6 @@ SELECT sum(quantity)*price as revenue
 FROM BIT_DB.JanSales
 GROUP BY product;
 
-
-
 --Question #6 Which products were sold in February at 548 Lincoln St, Seattle, WA 98101, how many of each were sold, and what was the total revenue?
 
 SELECT

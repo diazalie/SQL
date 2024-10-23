@@ -111,7 +111,7 @@ SELECT DISTINCT location,
        length(orderid) = 6 AND 
        orderid <> 'Order ID'
  GROUP BY location
-HAVING count(orderID) > 2
+HAVING count(orderID) >= 2
 ;
 
 --Question #10 How many of each type of headphone was sold in February?
